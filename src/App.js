@@ -10,7 +10,7 @@ export default function App (){
 
         
                 <Weather/>
-                <p>This project was coded by Louise Biz and is <a href="" > open-sourced on GitHub</a> and hosted on Netlify</p>
+                <p>This project was coded by Louise Biz and is <a href="https://github.com/louisetbiz/weather-app-react" > open-sourced on GitHub</a> and hosted on Netlify</p>
             </div>
         </div>
     )
