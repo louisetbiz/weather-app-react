@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import reportWebVitals from './reportWebVitals';
 
-import Weather from "./Weather.js";
 import App from "./App.js"
 
 
@@ -14,7 +13,7 @@ root.render(
   <React.StrictMode>
     
     <App />
-    <Weather/>
+    
   </React.StrictMode>
 );
 

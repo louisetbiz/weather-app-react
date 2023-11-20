@@ -28,8 +28,13 @@ function handleSubmit (event){
   return (
     <div className="form">
     <form onSubmit={handleSubmit}>
-      <input type="search" onChange ={updateCity}></input>
-      <input type="submit"></input>
+    <div class="row">
+    <div class="col-9">
+      <input type="search" onChange ={updateCity} class="mb-3 w-100"></input>
+      </div>
+      <div class="col-3">
+      <input type="submit" class="btn btn-primary w-100"></input>
+      </div></div>
       </form>
       <p>{result}</p></div>
   );
