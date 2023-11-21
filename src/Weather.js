@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
+import "./Weather.css";
+
 
 export default function Weather (){
     const [city, setCity] = useState(" ");
@@ -26,16 +28,47 @@ function handleSubmit (event){
 
   
   return (
-    <div className="form">
+    <div className="Weather">
     <form onSubmit={handleSubmit}>
     <div class="row">
     <div class="col-9">
-      <input type="search" onChange ={updateCity} class="mb-3 w-100"></input>
+      <input 
+      type="search" 
+      placeholder="Enter a city.." onChange ={updateCity} 
+      className="form-control"
+      autoFocus="on"></input>
       </div>
       <div class="col-3">
       <input type="submit" class="btn btn-primary w-100"></input>
       </div></div>
       </form>
-      <p>{result}</p></div>
+      <p>{result}</p>
+      <div>
+        <h1>Madrid</h1>
+        <ul>
+          <li>Wednesday 07:00</li>
+          <li>Sunny</li>
+        </ul>
+        <div className="row mt-3">
+          <div className="col-6">
+          
+            <div className="clearfix">
+              <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" 
+            alt="Cloudy"
+            className="float-left"/>
+            <div className="float-left">
+              <span className="temperature">18</span>
+              <span className="unit">ºC</span> 
+            </div>
+            </div></div>
+           
+          
+          <div className="col-6">
+            <ul><li>Precipitation: 10%</li>
+            <li>Humidity: 73%</li>
+            <li>Wind: 5km/h</li></ul>
+          </div>
+        </div>
+        </div></div>
   );
 }

@@ -1,14 +1,9 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  max-width: 600px;
+  margin: 30px auto;
 }
 
-.container{
-  max-width: 500px;
-    margin: 30px auto;
-    border: 1px solid #a9d9d0;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: rgba(212, 209, 209, .8);
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
 }
