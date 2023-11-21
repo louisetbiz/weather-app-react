@@ -52,15 +52,15 @@ function handleSubmit (event){
         <div className="row mt-3">
           <div className="col-6">
           
-            <div className="clearfix">
+        
               <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" 
             alt="Cloudy"
             className="float-left"/>
-            <div className="float-left">
+            
               <span className="temperature">18</span>
               <span className="unit">ºC</span> 
+           
             </div>
-            </div></div>
            
           
           <div className="col-6">
