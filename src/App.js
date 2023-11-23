@@ -10,6 +10,7 @@ export default function App (){
 
         
                 <Weather defaultCity="Madrid"/>
+               
                 <footer>This project was coded by Louise Biz and is <a href="https://github.com/louisetbiz/weather-app-react" > open-sourced on GitHub</a> and hosted on Netlify</footer>
             </div>
         </div>
