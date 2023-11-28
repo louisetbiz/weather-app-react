@@ -60,7 +60,7 @@ if (weatherData.ready) {
       </input>
       </div>
       <div className="col-3">
-      <input type="submit" class="btn btn-primary w-100"></input>
+      <input type="submit" className="btn btn-primary w-100"></input>
       </div></div>
       </form>
       <WeatherInfo data = {weatherData}/>
